@@ -110,22 +110,22 @@ public class ListFragment extends Fragment {
     public void populateCelebrityList() {
         celebrityList.add(new Celebrity("Kanye West", "Rapper", "Award winning, life-changing, " +
                 "super-controversial and infinitely influential 40-year old rapper/producer.",
-                "\"My greatest pain in life is that I will never be able to see myself perform live.\""));
-        celebrityList.add(new Celebrity("Quentin Tarantino", "Director",
-                "Despite being infamously controversial, Tarantino has crafted some of the most memorable female" +
+                "\"My greatest pain in life is that I will never be able to see myself perform live.\"", R.drawable.kanye));
+        celebrityList.add(new Celebrity("Quentin tarantino", "Director",
+                "Despite being infamously controversial, tarantino has crafted some of the most memorable female" +
                         "and African American characters of all time.",
-                "\"I was kind of excited about going to jail the first time and I learned some great dialogue.\""));
+                "\"I was kind of excited about going to jail the first time and I learned some great dialogue.\"", R.drawable.tarantino));
         celebrityList.add(new Celebrity("Ron Swanson", "Parks and Recreation Director",
                 "Leslie Knop's direct superior. Likes dark haired women, breakfast food and Little Sebastian. " +
                         "Also the sexiest character on NBC's Parks and Recreation.",
                 "\"When people get too chummy with me, I like to call them by the wrong name to " +
-                        "let them know I don’t really care about them.\""));
+                        "let them know I don’t really care about them.\"", R.drawable.ron_swanson));
         celebrityList.add(new Celebrity("John Cena", "Wrestler", "Having the power of invisibility, " +
                 "Cena has managed to take out all of his opponenets without breaking a sweat.",
                 "\"You can't fly with me, C-E-N-A\n" +
                         "It's a freestyle rap, baby, we don't play\n" +
                         "I come off the dome like every day\n" +
-                        "Come at you from both sides like lesbian three ways\""));
+                        "Come at you from both sides like lesbian three ways\"", R.drawable.john_cena));
     }
 
     @Override

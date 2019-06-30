@@ -6,13 +6,15 @@ public class Celebrity {
     private String profession = "";
     private String details = "";
     private String quote = "";
+    private int photo;
 
     public Celebrity(){}
-    public Celebrity(String name, String profession, String details, String quote) {
+    public Celebrity(String name, String profession, String details, String quote, int photo) {
         this.name = name;
         this.profession = profession;
         this.details = details;
         this.quote = quote;
+        this.photo = photo;
     }
 
     public String getName() {
@@ -45,5 +47,11 @@ public class Celebrity {
 
     public void setQuote(String quote) {
         this.quote = quote;
+    }
+
+    public int getPhoto() { return photo; }
+
+    public void setPhoto(int photo) {
+        this.photo = photo;
     }
 }
